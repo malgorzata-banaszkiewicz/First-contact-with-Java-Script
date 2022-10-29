@@ -1,0 +1,34 @@
+
+const PODATEK_VAT = 0.24;
+undefined
+const CENA_TELEFONU = 899.99;
+undefined
+const CENA_OSŁONKI = 25.55;
+undefined
+const ILE_MOGE_WYDAC = 5555;
+undefined
+saldo_bankowe = prompt( 'Jakie masz saldo w banku?' );
+'7854'
+var saldo_bankowe = Number( 7854 );
+undefined
+console.log( saldo_bankowe );
+VM849:1 7854
+undefined
+amount = CENA_OSŁONKI + CENA_TELEFONU + PODATEK_VAT;
+925.78
+function cenaKoncowa() { console.log( amount.toFixed( 0 ) + 'PLN' ); }
+undefined
+cenaKoncowa();
+VM2887:1 926PLN
+undefined
+undefined
+while ( amount <= ILE_MOGE_WYDAC) { console.log( 'Poproszę jeszcze jeden!' ); amount = amount + 925.78; }
+6VM3812:1 Poproszę jeszcze jeden!
+6480.459999999999
+amount = 925.78 * 6;
+5554.68
+cenaKoncowa();
+VM2887:1 5555PLN
+undefined
+if (amount <= ILE_MOGE_WYDAC) { console.log( 'Poproszę 6 telefonów z osłonkami!' ); } else{ console.log( 'Nie stać mnie' ); }
+VM4634:1 Poproszę 6 telefonów z osłonkami!
